@@ -13,11 +13,11 @@ You can use that data or make up your own
 '''
 
 pets = {
-  'Asta': 'dog',
+  'Asta':          'dog',
   'Butterscotch' : 'cat',
-  'Pudding': 'cat',
-  'Neptune': 'fish',
-  'Darwin': 'lizard',
+  'Pudding':       'cat',
+  'Neptune':       'fish',
+  'Darwin':        'lizard',
 }
 
 print(pets['Asta'])
