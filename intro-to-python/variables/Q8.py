@@ -5,11 +5,6 @@ Assume you have $1,000.00 in the bank, and you've somehow managed to find a bank
 
 '''
 
-balance = 1000
-balance *= 1.05
-balance *= 1.05
-balance *= 1.05
-balance *= 1.05
-balance *= 1.05
+balance = 1000 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05
 
 print(balance)
