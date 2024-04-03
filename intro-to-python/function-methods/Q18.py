@@ -22,7 +22,7 @@ numbers_4 = []
 print(remainders_3(numbers_1))
 print(remainders_3(numbers_2))
 print(remainders_3(numbers_3))
-print(remainders_3(numbers_4))
+print(remainders_4(numbers_4))
 
 '''
 It would be list 1 & 2
