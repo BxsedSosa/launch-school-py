@@ -34,3 +34,7 @@ print(is_leap_year(2000) == True)
 print(is_leap_year(2023) == False)
 print(is_leap_year(2024) == True)
 print(is_leap_year(2025) == False)
+
+"""
+Only difference of the code from last one is creating the condition for years before 1752 and just having the expression of `year % 4 == 0` return True or False
+"""
