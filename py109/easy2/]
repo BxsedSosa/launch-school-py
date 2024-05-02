@@ -5,15 +5,12 @@ Q11. Write a function that takes a non-empty string argument and returns the mid
 
 def center_of(string):
     string_len = len(string)
-    half_len = string_len // 2
-    print(half_len)
+    half_len = round(string_len / 2)
 
     if string_len % 2 == 0:
-        print(string[half_len - 1 : half_len + 1])
         return string[half_len - 1 : half_len + 1]
     else:
-        print(string[half_len - 1])
-        return string[half_len - 1]
+        return string[half_len]
 
 
 print(center_of("I Love Python!!!") == "Py")  # True

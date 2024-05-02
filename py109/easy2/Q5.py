@@ -10,3 +10,7 @@ number2 = int(input("==> Enter the second number:"))
 for operation in operations:
     results = eval(f"{number1}{operation}{number2}")
     print(f"{number1} {operation} {number2} = {results}")
+
+"""
+This example I created a list of each operation. Then 2 variables that will take a integer as an input. After a for loop which will iterate over each operation in the list and use the eval() function which evaluates the string as if it was a math arithmetic making the code short and sweet
+"""
